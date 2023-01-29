@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: rgb(32, 32, 32);
+}
+
+.cabecalho{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    background-color: rgba(26, 26, 26, 0.26);
+    padding: 30px;
+}
+
+.cabecalho-logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.conteudo{
+    background-color: rgb(32, 32, 32);
+}
+
+.cabecalho-navegacao{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-texto{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+.cabecalho-texto:hover{
+    color: #979797;
+}
+
+.conteudo-sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px;
+    padding-top: 240px;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    background-color: rgb(26, 26, 26);
+}
+
+.conteudo-sobre--texto__titulo{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.conteudo-sobre--texto__escrita{
+    font-size: 1.5rem;
+}
+
+.conteudo-sobre__foto{
+    width: 400px;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.conteudo-sobre--texto__button{
+    margin-left: 30%;
+    margin-top: 3%;
+    width: 40%;
+    height: 60px;
+    border: none;
+    background-color:#FFFFFF;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.conteudo-sobre--texto__button:hover{
+    background-color: #6d6d6d;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.conteudo-projetos{
+    margin-top: 200px;
+    background-color: rgb(32, 32, 32);
+}
+
+.conteudo-projetos__titulo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.conteudo-projetos__nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 100px;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.conteudo-projetos__nav--botao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(26, 26, 26);
+    transition: 0.3s;
+}
+
+.conteudo-projetos__nav--botao:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    color: black;
+    font-weight: 500;
+}
+
+.conteudo-projetos__nav--texto{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+
+.conteudo-projetos__nav--imagem{
+    width: 80px;
+}
+
+.conteudo-projetos__nav--imagem__css{
+    width: 87px;
+}
+
+.conteudo-cohecimentos{
+    margin-top: 320px;
+    margin-bottom: 430px;
+}
+
+.conteudo-cohecimentos__titulo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.conteudo-cohecimentos__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 100px;
+}
+
+.conteudo-cohecimentos__logo--icon{
+    width: 200px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 100px;
+    background-color: rgb(32, 32, 32);
+}
+
+.rodape-titulo{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.rodape-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 15%;
+    padding-bottom: 30px;
+}
+
+.rodape-conteudo__imagem{
+    width: 80px;
+}
+
+.texto{
+    margin-right: 340px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.texto:hover{
+    color: #979797;
+}
