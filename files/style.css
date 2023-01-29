@@ -129,6 +129,7 @@ body{
     cursor: pointer;
     background-color: rgb(26, 26, 26);
     transition: 0.3s;
+    border: none;
 }
 
 .conteudo-projetos__nav--botao:hover{
